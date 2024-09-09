@@ -3,6 +3,7 @@ const axios = require("axios");
 class Rodina {
     constructor(options) {
         this.authToken = options.authToken;
+        this.test = "asd";
         this.url = {
             account: "https://api.rodina-rp.com/api/account",
             servers: "https://api.arizona-five.com/launcher/servers",
