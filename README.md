@@ -6,9 +6,9 @@
 
 # Quick guide
 
-###First, we need to get your Authorization token.
+#### First, we need to get your Authorization token.
 
-###Follow the steps:
+#### Follow the steps:
 
 ```
 1. Log in to your personal account https://rodina-rp.com/
