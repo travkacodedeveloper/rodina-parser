@@ -1,20 +1,19 @@
-const axios = require("axios");
+const axios = require('axios');
 
 class Rodina {
     constructor(options) {
         this.authToken = options.authToken;
-        this.test = "asd";
         this.url = {
-            account: "https://api.rodina-rp.com/api/account",
-            servers: "https://api.arizona-five.com/launcher/servers",
-            rating: "https://api.rodina-rp.com/api/rating",
-            news: "https://api.rodina-rp.com/api/news/admin",
-            songs: "https://api.rodina-rp.com/api/music/songs",
+            account: 'https://api.rodina-rp.com/api/account',
+            servers: 'https://api.arizona-five.com/launcher/servers',
+            rating: 'https://api.rodina-rp.com/api/rating',
+            news: 'https://api.rodina-rp.com/api/news/admin',
+            songs: 'https://api.rodina-rp.com/api/music/songs',
         };
         this.headers = {
             headers: {
                 Authorization: this.authToken,
-                Referer: "https://rodina-rp.com/",
+                Referer: 'https://rodina-rp.com/',
             },
         };
     }
