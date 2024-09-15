@@ -24,7 +24,7 @@ Example: "Bearer jeHj..."
 # Example
 
 ```js
-const Rodina = require("rodina-parser'");
+const Rodina = require("rodina-parser");
 const rrp = new Rodina({ authToken: 'Bearer jeHj...' });
 
 rrp.getAllSongs().then((x) => console.log(x));
